@@ -1,7 +1,7 @@
 var i, idNum;
 
 for (i=0; i<16; i++) {
-	$(".container").append("<div class='button' id='"+i+"'></div>")
+	$(".container").append("<div class='button smallbutton' id='"+i+"'></div>")
 }
 
 $(document).ready(function() {
@@ -24,5 +24,6 @@ $(document).ready(function() {
 			$(this).prev().css('background-color','yellow');
 			$(this).next().css('background-color','yellow');
 		}
+
 	})
 })
