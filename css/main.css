@@ -14,13 +14,13 @@ div {
 
 .button {
 	background-color: blue;
-	border: 8px dotted black;
-	border-radius: 50%;
+	border: 1px dotted black;
+	border-radius: 15px;
 }
 
 .smallbutton {
-	margin: 1em 5%;
-	height: 10em;
+	margin: 10em 2%;
+	height: 4em;
 	width: 10%;
 }
 
