@@ -5,7 +5,7 @@ for (i=0; i<6; i++) {
 }
 
 $(document).ready(function() {
-	$(".button").on('click', function() {
+	$(".button").hover(function() {
 		idNum = parseInt($(this).attr('id'));
 		$(".button").css('background-color','blue');
 		$(this).css('background-color','red');
